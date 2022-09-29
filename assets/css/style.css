@@ -15,7 +15,7 @@ main {
       scroll-snap-align: start;
       background-image: url(../img/wave-haikei.svg);
       width: 100%;
-      height: 100vh;
+      min-height: 100vh;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -34,7 +34,7 @@ main {
 
 .snap__section:nth-child(2) {
       background-image: url(../img/wave-haikei__top.svg);
-
+      height: auto;
 }
 
 .snap__section:nth-child(3) {
