@@ -396,6 +396,10 @@ header .slider {
             font-size: 1.5rem;
 
       }
+.snap__section:nth-child(2) {
+      background-image: url(../img/wave-haikei__top.svg);
+      height: 700px;
+}
 
       .picture {
             width: 39%;
